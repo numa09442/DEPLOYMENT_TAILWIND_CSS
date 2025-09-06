@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Nepal - Real Interior Makeovers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+<body class="bg-white">
+  <!-- Header -->
+  <header class="fixed top-0 w-full py-6 bg-transparent z-50">
+    <div class="w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto px-8">
+      <div class="flex items-center justify-between">
+        <div class="w-1/4">
+
+          <img src="logo 2.png" class="h-[50px] block md:hidden" alt="Logo" />
+
+          <img src="logo 2.png" class="h-[70px] hidden md:block" alt="Logo" />
+        </div>
+        <div class="w-3/4 flex items-center justify-end">
+          <ul class="flex gap-3 md:gap-6 items-center text-xs md:text-sm whitespace-nowrap">
+            <li>
+              <a href="view portfolio.html"
+                class="font-medium text-[#4e342e] hover:underline hover:decoration-2 hover:underline-offset-4">
+                PORTFOLIO
+              </a>
+            </li>
+            <li>
+              <a href="about.html"
+                class="font-medium text-[#4e342e] hover:underline hover:decoration-2 hover:underline-offset-4">
+                ABOUT
+              </a>
+            </li>
+            <li>
+              <a href="getstarted.html"
+                class="border border-amber-50 bg-transparent text-[#4e342e] px-2 md:px-3 py-0.5 md:py-1 text-xs md:text-sm rounded-full hover:bg-amber-50/30 hover:border-[#4e342e] transition duration-300 whitespace-nowrap">
+                GET STARTED
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-[0px] relative w-full h-[1000px]">
+    <img src="phomepage.png" alt="Interior Design Makeover" class="w-full h-full object-cover" />
+    <div
+      class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black/30 text-center px-4">
+      <h2 class="text-white text-5xl font-semibold mb-2">Our Real Interior</h2>
+      <h2 class="text-white text-5xl font-semibold mb-4">Design Makeovers</h2>
+      <p class="text-lg text-white">
+        Explore our transformation for:
+        <button class="text-white text-xl font-semibold border-b-2 border-white">
+          Choose your Room <span class="ml-1">▼</span>
+        </button>
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Makeover Sections -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Sleek & Modern Living Room Interior Design</h2>
+      <div class="flex justify-center mb-6">
+        <button onclick="showTab('before')" id="beforeBtn"
+          class="px-6 py-2 text-white bg-[#3D1F1F] rounded-l-md">Before</button>
+        <button onclick="showTab('after')" id="afterBtn"
+          class="px-6 py-2 text-gray-700 bg-gray-200 rounded-r-md">After</button>
+      </div>
+      <div class="bg-[#f9f6f2] p-6 rounded-xl border-[6px] border-gray-300 shadow-md">
+        <div id="beforeGallery" class="space-y-4">
+          <img src="/before1.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/before1.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/before1.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+        <div id="afterGallery" class="space-y-4 hidden">
+          <img src="/after1.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/after1.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/after1.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Repeat for Kitchen, Bedroom, Office -->
+  <section class="py-0 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Cozy Kitchen Upgrade</h2>
+      <div class="flex justify-center mb-6">
+        <button onclick="showTab('before2')" id="beforeBtn2"
+          class="px-6 py-2 text-white bg-[#3D1F1F] rounded-l-md">Before</button>
+        <button onclick="showTab('after2')" id="afterBtn2"
+          class="px-6 py-2 text-gray-700 bg-gray-200 rounded-r-md">After</button>
+      </div>
+      <div class="bg-[#f9f6f2] p-6 rounded-xl border-[6px] border-gray-300 shadow-md">
+        <div id="beforeGallery2" class="space-y-4">
+          <img src="/before2.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/before2.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/before2.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+        <div id="afterGallery2" class="space-y-4 hidden">
+          <img src="/after2.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/after2.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/after2.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Elegant Bedroom Redesign</h2>
+      <div class="flex justify-center mb-6">
+        <button onclick="showTab('before3')" id="beforeBtn3"
+          class="px-6 py-2 text-white bg-[#3D1F1F] rounded-l-md">Before</button>
+        <button onclick="showTab('after3')" id="afterBtn3"
+          class="px-6 py-2 text-gray-700 bg-gray-200 rounded-r-md">After</button>
+      </div>
+      <div class="bg-[#f9f6f2] p-6 rounded-xl border-[6px] border-gray-300 shadow-md">
+        <div id="beforeGallery3" class="space-y-4">
+          <img src="/before3.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/before3.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/before3.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+        <div id="afterGallery3" class="space-y-4 hidden">
+          <img src="/after3.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/after3.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/after3.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-0 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Combined Living Room & Kitchen</h2>
+      <div class="flex justify-center mb-6">
+        <button onclick="showTab('before4')" id="beforeBtn4"
+          class="px-6 py-2 text-white bg-[#3D1F1F] rounded-l-md">Before</button>
+        <button onclick="showTab('after4')" id="afterBtn4"
+          class="px-6 py-2 text-gray-700 bg-gray-200 rounded-r-md">After</button>
+      </div>
+      <div class="bg-[#f9f6f2] p-6 rounded-xl border-[6px] border-gray-300 shadow-md">
+        <div id="beforeGallery3" class="space-y-4">
+          <img src="/before4.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/before4.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/before4.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+        <div id="afterGallery3" class="space-y-4 hidden">
+          <img src="/after4.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/after4.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/after4.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Bathroom Redesign</h2>
+      <div class="flex justify-center mb-6">
+        <button onclick="showTab('before5')" id="beforeBtn5"
+          class="px-6 py-2 text-white bg-[#3D1F1F] rounded-l-md">Before</button>
+        <button onclick="showTab('after5')" id="afterBtn5"
+          class="px-6 py-2 text-gray-700 bg-gray-200 rounded-r-md">After</button>
+      </div>
+      <div class="bg-[#f9f6f2] p-6 rounded-xl border-[6px] border-gray-300 shadow-md">
+        <div id="beforeGallery3" class="space-y-4">
+          <img src="/before5.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/before5.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/before5.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+        <div id="afterGallery3" class="space-y-4 hidden">
+          <img src="/after5.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/after5.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/after5.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-0 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-6">Office Redesign</h2>
+      <div class="flex justify-center mb-6">
+        <button onclick="showTab('before6')" id="beforeBtn6"
+          class="px-6 py-2 text-white bg-[#3D1F1F] rounded-l-md">Before</button>
+        <button onclick="showTab('after6')" id="afterBtn6"
+          class="px-6 py-2 text-gray-700 bg-gray-200 rounded-r-md">After</button>
+      </div>
+      <div class="bg-[#f9f6f2] p-6 rounded-xl border-[6px] border-gray-300 shadow-md">
+        <div id="beforeGallery4" class="space-y-4">
+          <img src="/before6.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/before6.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/before6.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+        <div id="afterGallery4" class="space-y-4 hidden">
+          <img src="/after6.png" class="w-full rounded-md object-cover h-64" />
+          <div class="grid grid-cols-2 gap-4">
+            <img src="/after6.png" class="rounded-md object-cover h-40 w-full" />
+            <img src="/after6.png" class="rounded-md object-cover h-40 w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+<!-- CTA Section -->
+<section class="bg-#F4EFE8 py-20 text-center">
+  <h2 class="text-3xl font-semibold text-gray-800 mb-6">Like What You see?</h2>
+  <a href="booking.html">
+    <button class="bg-[#6C4A3F] hover:bg-[#55382F] text-white px-8 py-3 rounded text-lg font-medium transition">
+      SCHEDULE A CONSULTATION
+    </button>
+  </a>
+</section>
+
+<footer class="bg-black text-white py-10">
+  <div class="max-w-7xl mx-auto px-6 text-sm">
+
+
+    <div class="md:hidden space-y-6">
+
+      <div class="border-b border-gray-700">
+        <input type="checkbox" id="about-mobile" class="peer hidden">
+        <label for="about-mobile" class="flex justify-between items-center py-3 cursor-pointer font-semibold">
+          ABOUT US
+          <span class="transition-transform peer-checked:rotate-180">▼</span>
+        </label>
+        <ul
+          class="max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300 mt-2 space-y-2 text-gray-400">
+          <li><a href="#">The Team</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Design Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="border-b border-gray-700">
+        <input type="checkbox" id="explore-mobile" class="peer hidden">
+        <label for="explore-mobile" class="flex justify-between items-center py-3 cursor-pointer font-semibold">
+          EXPLORE
+          <span class="transition-transform peer-checked:rotate-180">▼</span>
+        </label>
+        <ul
+          class="max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300 mt-2 space-y-2 text-gray-400">
+          <li><a href="#">Style</a></li>
+          <li><a href="#">Interior Design Blog</a></li>
+          <li><a href="#">Sample Projects</a></li>
+          <li><a href="#">Designer Portfolio</a></li>
+          <li><a href="#">Virtual Interior Design</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+
+      <div class="border-b border-gray-700">
+        <input type="checkbox" id="locations-mobile" class="peer hidden">
+        <label for="locations-mobile" class="flex justify-between items-center py-3 cursor-pointer font-semibold">
+          LOCATIONS
+          <span class="transition-transform peer-checked:rotate-180">▼</span>
+        </label>
+        <ul
+          class="max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300 mt-2 space-y-2 text-gray-400">
+          <li><a href="#">Hetauda</a></li>
+          <li><a href="#">Dharan</a></li>
+          <li><a href="#">Pokhara</a></li>
+          <li><a href="#">Kathmandu</a></li>
+          <li><a href="#">Jhapa</a></li>
+          <li><a href="#">See All Locations</a></li>
+        </ul>
+      </div>
+
+
+      <div>
+        <p class="font-semibold mb-3">GET EXCLUSIVE TIPS & OFFERS</p>
+        <form class="flex items-center bg-white rounded overflow-hidden">
+          <input type="email" placeholder="Enter email address"
+            class="flex-1 px-3 py-2 text-black placeholder-gray-500 focus:outline-none">
+          <button type="submit" class="px-4">
+            <svg class="h-5 w-5 text-black" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M2.94 2.94a1.5 1.5 0 012.12 0l12 12a1.5 1.5 0 01-2.12 2.12l-12-12a1.5 1.5 0 010-2.12zM18 2.5a.5.5 0 00-.5-.5h-15a.5.5 0 00-.35.85l15 15a.5.5 0 00.85-.35v-15z" />
+            </svg>
+          </button>
+        </form>
+      </div>
+
+
+      <div class="text-center mt-6">
+        <p class="font-semibold mb-3">JOIN OUR COMMUNITY</p>
+        <div class="flex justify-center gap-6">
+          <a href="#"><img src="instagram.png" class="h-6" alt="Instagram"></a>
+          <a href="#"><img src="facebook.png" class="h-6" alt="Facebook"></a>
+          <a href="#"><img src="threads.png" class="h-6" alt="Threads"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="hidden md:flex md:flex-row md:justify-between md:items-start space-x-10">
+
+
+      <div>
+        <h3 class="font-semibold mb-3">ABOUT US</h3>
+        <ul class="space-y-2 text-gray-400 text-sm">
+          <li><a href="#">The Team</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Design Careers</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-3">EXPLORE</h3>
+        <ul class="space-y-2 text-gray-400 text-sm">
+          <li><a href="#">Style</a></li>
+          <li><a href="#">Interior Design Blog</a></li>
+          <li><a href="#">Sample Projects</a></li>
+          <li><a href="#">Designer Portfolio</a></li>
+          <li><a href="#">Virtual Interior Design</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold mb-3">LOCATIONS</h3>
+        <ul class="space-y-2 text-gray-400 text-sm">
+          <li><a href="#">Hetauda</a></li>
+          <li><a href="#">Dharan</a></li>
+          <li><a href="#">Pokhara</a></li>
+          <li><a href="#">Kathmandu</a></li>
+          <li><a href="#">Jhapa</a></li>
+          <li><a href="#">See All Locations</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col space-y-6">
+        <div>
+          <p class="font-semibold mb-3">GET EXCLUSIVE TIPS & OFFERS</p>
+          <form class="flex items-center bg-white rounded overflow-hidden">
+            <input type="email" placeholder="Enter email address"
+              class="flex-1 px-3 py-2 text-black placeholder-gray-500 focus:outline-none">
+            <button type="submit" class="px-4">
+              <svg class="h-5 w-5 text-black" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M2.94 2.94a1.5 1.5 0 012.12 0l12 12a1.5 1.5 0 01-2.12 2.12l-12-12a1.5 1.5 0 010-2.12zM18 2.5a.5.5 0 00-.5-.5h-15a.5.5 0 00-.35.85l15 15a.5.5 0 00.85-.35v-15z" />
+              </svg>
+            </button>
+          </form>
+        </div>
+        <div>
+          <p class="font-semibold mb-3">JOIN OUR COMMUNITY</p>
+          <div class="flex gap-4">
+            <a href="#"><img src="instagram.png" class="h-6" alt="Instagram"></a>
+            <a href="#"><img src="facebook.png" class="h-6" alt="Facebook"></a>
+            <a href="#"><img src="threads.png" class="h-6" alt="Threads"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div
+      class="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-xs text-center md:text-left">
+      <div class="mb-4 md:mb-0">
+        <img src="logo2-2.jpg" alt="Casa Nepal Logo" class="h-12 mx-auto md:mx-0">
+      </div>
+      <p>&copy; 2025 Casa Nepal. All rights reserved.</p>
+    </div>
+
+  </div>
+</footer>
